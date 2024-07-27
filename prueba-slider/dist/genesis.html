@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/genesis-logo.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://kit.fontawesome.com/b6e4dcd8b5.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="./css/genesis.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://kit.fontawesome.com/b6e4dcd8b5.js" crossorigin="anonymous"></script>
+  <title>Génesis</title>
+</head>
+<body>
+  <section class="content"></section>
+
+
+  <div class="contenedor-modal">
+    <a href="#" class="fa fa-close btn-cerrar-modal" id="btn-cerrar-modal"></a>
+</div>
+
+<div class="contenedor-modal-responsive">
+    <a href="#" class="fa fa-close btn-cerrar-modal-responsive" id="btn-cerrar-modal-responsive"></a>
+</div>
+
+<header class="header">
+  <h3 class="h3">Lecture Reference Control GENESIS 3.0</h3>
+          
+    <div class="contenedor-header">
+        <div class="contenedor-sidebar-responsive">
+          
+
+            <div class="contenedor-btn-menu">
+                <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div class="contenedor-menu-responsive">
+                <ul class="menu-responsive">
+                    <li><a href="./index.html" target="_blank"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li class="info"><a href="#" class="info"><i class="fa fa-address-book"></i> Quienes Somos </a></li>
+                    <li><a href="#" id="btn-productos-responsive" class="btn-productos-responsive"><i class="fa fa-tags"></i> Productos </a></li>
+                    <li class="contacto"><a href="#"><i class="fa fa-envelope"></i> Contacto</a></li>
+                    <div class="container-logo">
+                    <img src="./img/genesis-logo.png" alt="logo" class="logo">
+                    </div>
+                </ul>
+            </div>
+
+            <div class="contenedor-submenus-responsive">
+              <div class="contenedor-submenu-productos-responsive" id="contenedor-submenu-productos-responsive">
+                  <a href="#" class="btn-cerrar-submenu-productos-responsive" id="btn-cerrar-submenu-productos-responsive"><i class="fa fa-close"></i></a>
+                  <a href="#">Software 1</a>
+                  <a href="#">Software 2</a>
+                  <a href="#">Software 3</a>
+                  <a href="#">Software 4</a>
+                  <a href="#">Software 5</a>
+              </div>
+          </div>
+
+        </div>
+    </div>
+</header>
+
+
+
+  <section class="content-page">
+    <div class="slider-text grid-item">
+      <div class="text">
+
+
+        <h1> Yo soy el texto </h1>
+        <p id="text-related"></p>
+      </div>
+    </div>
+    <div class="slider-images grid-item">
+      <a class="example-image-link tooltip" data-lightbox="example-1">
+        <img src="" alt="ejemplo.png">
+      </a>
+    </div>
+    <div class="slider-title grid-item">
+      <div class="titles">
+        <h1>Selecciona una Herramienta de Lecture Reference Control GENESIS 3.0</h1>
+        <div class="title-list">
+          <div class="column">
+            <ul id="title-list-column1"></ul>
+          </div>
+          <div class="column">
+            <ul id="title-list-column2"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./js/genesis.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="./css/contacto.css" type="text/css">
+  <title>Contactanos</title>
+</head>
+<body>
+
+  <div class="img-bg">
+    <img src="https://images7.alphacoders.com/135/thumb-1920-1353715.png" alt="Fondo" srcset="">
+  </div>
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="col-md-offset-1 col-md-10">
+        <h2>Contactanos<i class="fa fa-paper-plane-o"></i></h2>
+        <div id="map-canvas"></div>
+      </div>
+      <form method="post" name="contactform" id="contactform">
+        <div class="col-md-offset-1 col-md-5">
+          <fieldset>
+            <input name="name" type="text" id="name" size="30" placeholder="Nombre" required maxlength="20">
+            <br>
+            <input name="email" type="email" id="email" size="30" placeholder="Email" required>
+            <br>
+            <input name="phone" type="tel" id="phone" size="30" placeholder="Teléfono" required>
+            <br>
+            <input name="human" type="text" id="human" size="30" placeholder="No eres un robot?... Cuánto es 2+2?" required>
+            <br>
+          </fieldset>
+        </div>
+        <div class="col-md-5">
+          <fieldset>
+            <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Mensaje" required></textarea>
+          </fieldset>
+        </div>
+        <div class="col-md-offset-1 col-md-10">
+          <fieldset>
+            <button type="submit" class="btn btn-lg" id="submit" value="Submit">Enviar Mensaje</button>
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="./js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/logo.png">
+  <script src="https://kit.fontawesome.com/b6e4dcd8b5.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Dealma Solutions</title>
+</head>
+<body>
+
+  
+  <div class="video-container">
+    <video class="video" src="./video/bg-principal.mp4" autoplay loop>
+      <source>
+    </video>
+  </div>
+
+
+  <div class="contenedor-modal">
+    <a href="#" class="fa fa-close btn-cerrar-modal" id="btn-cerrar-modal"></a>
+</div>
+
+<div class="contenedor-modal-responsive">
+    <a href="#" class="fa fa-close btn-cerrar-modal-responsive" id="btn-cerrar-modal-responsive"></a>
+</div>
+
+<header class="header">
+ 
+          
+    <div class="contenedor-header">
+        <div class="contenedor-sidebar-responsive">
+          
+
+            <div class="contenedor-btn-menu">
+                <a href="#" class="btn-menu" id="btn-menu"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div class="contenedor-menu-responsive">
+                <ul class="menu-responsive">
+                    <li><a href="./index.html" target="_blank"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li class="info"><a href="#" class="info"><i class="fa fa-address-book"></i> Quienes Somos </a></li>
+                    <li><a href="#" id="btn-productos-responsive" class="btn-productos-responsive"><i class="fa fa-tags"></i> Productos </a></li>
+                    <li class="contacto"><a href="#"><i class="fa fa-envelope"></i> Contacto</a></li>
+                    <div class="container-logo">
+                    </div>
+                </ul>
+            </div>
+
+            <div class="contenedor-submenus-responsive">
+              <div class="contenedor-submenu-productos-responsive" id="contenedor-submenu-productos-responsive">
+                  <a href="#" class="btn-cerrar-submenu-productos-responsive" id="btn-cerrar-submenu-productos-responsive"><i class="fa fa-close"></i></a>
+                  <a href="#">Programa 1</a>
+                  <a href="#">Programa 2</a>
+                  <a href="#">Programa 3</a>
+                  <a href="#">Programa 4</a>
+                  <a href="#">Programa 5</a>
+              </div>
+          </div>
+
+        </div>
+    </div>
+</header>
+  
+  <div class="cursor"></div>
+
+
+  <section class="section">
+    <section class="container-in">
+      <h1 class="title">Haz click en el programa de tu preferencia</h1>
+      <div class="universe tooltip" id="universe-container">
+        <span>
+          <img src="./img/logo.png" style="float:right;" class="loksea-2" />
+          <strong>D'ALMA SOLUTIONS</strong><br/>
+          Datos - lectura - Manejo - Contabilidad
+              Soluciones Integradas
+      </span>
+        <div class="opening hide-UI view-2D zoom-large data-close controls-close">
+            <div id="universe" class="scale-stretched">
+              <div id="galaxy">
+                <div id="solar-system" class="earth">
+              
+                  <div id="saturn" class="orbit">
+                    <div class="pos">
+                        <img src="./img/logo-genesis-txt.png" alt="Logotipo Génesis" class="planet">
+                    </div>
+                    <div class="pos">
+                      <img src="./img/LRC-logo.png" alt="Logotipo Génesis" class="planet">
+                  </div>
+                  <div class="pos">
+                    <img src="./img/logo.png" alt="Logotipo Génesis" class="planet">
+                </div>
+
+                <div class="pos">
+                  <img src="./img/logo.png" alt="Logotipo Génesis" class="planet">
+              </div>
+                 </div>
+              
+                    <img src="./img/logo.png" alt="Logotipo Génesis" class="sun-image" id="sun">
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    
+    <section class="container">
+      <h1 class="slider-title">D'ALMA Integrated Solutions</h1>
+      <p class="slider-text">Desarrollo de Software con soluciones Integrales de aplicaciones terapéuticas para todos los profesionales de la salud, explora nuestros softwares y sus aplicaciones.</p>
+
+      <section id="slider">
+        <ul class="slider-wrapper">
+          <li class="current-slide" style="background-image: url('./img/slider-1.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-2.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-3.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-4.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-5.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-6.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-7.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-8.jpg')">
+          </li>
+          <li style="background-image: url('./img/slider-9.jpg')">
+          </li>
+        </ul>
+        <ul id="control-buttons" class="control-buttons"></ul>
+      </section>
+    </section>
+  </section>
+
+	
+	
+  </section>
+
+
+  <section class="modal">
+
+    <div class="modal__container">
+      <img src="./img/cerrar.png" alt="cerrar" class="close-icon">
+      <div class="modal__text">
+        <h2 class="modal__title">Grupo de Software LRC </h2>
+        <p class="modal__p">Lecture Reference Control Standard 3.0</p></div>
+          <div class="modal__content">
+      <img src="./img/logo.png" class="modal__img">
+      <a href="./genesis.html" class="modal__img-link" target="_blank">
+        <img src="./img/logo-genesis-txt.png" class="modal__img-small modal__img-small-top-left">
+
+        <span class="image-text">Génesis</span> 
+      </a>
+      <a href="./lrc.html" class="modal__img-link" target="_blank">
+        <img src="./img/LRC-logo.png" class="modal__img-small modal__img-small-top-right">
+
+        <span class="image-text">LRC TS</span> 
+      </a>
+      <a href="#" class="modal__img-link">
+        <img src="./img/ojo.avif" class="modal__img-small modal__img-small-bottom-left">
+
+        <span class="image-text">Logo 3</span> 
+      </a>
+      <a href="#" class="modal__img-link">
+        <img src="./img/ojo.avif" class="modal__img-small modal__img-small-bottom-right">
+
+        <span class="image-text">Logo 4</span> 
+      </a>
+      
+    </div>
+    </div>
+  </section>
+  
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
+
+
