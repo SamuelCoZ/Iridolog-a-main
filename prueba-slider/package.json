@@ -1,0 +1,14 @@
+{
+  "name": "prueba-slider",
+  "version": "1.0.0",
+  "description": "Una página web principal del proyecto de Iridología de Dalma Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:index": "sass src/css/style.scss dist/css/style.css",
+    "build:genesis": "sass src/css/genesis.scss dist/css/genesis.css",
+    "build:contact": "sass dist/css/contacto.scss dist/css/contacto.css"
+  },
+  "author": "Kevin",
+  "license": "ISC"
+}
